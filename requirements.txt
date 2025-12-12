@@ -1,7 +1,0 @@
-matplotlib
-pandas
-numpy
-scikit-learn
-openpyxl
-psi4 #the quantum chemistry package
-fortecubeview #A viewer for normal modes and MO surfaces

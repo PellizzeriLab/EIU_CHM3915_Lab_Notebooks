@@ -1,0 +1,17 @@
+name: eiu-pchem-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - pandas
+  - partd
+  - scikit-learn
+  - openpyxl
+  - psi4
+  - fortecubeview
+  - ase
+  
