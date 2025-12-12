@@ -53,18 +53,25 @@ CHM 3915 is a laboratory course in physical chemistry that introduces students t
 
 Click the badge below to launch the notebooks in an interactive environment without any installation:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PellizzeriLab/EIU_CHM3915_Lab_Notebooks/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PellizzeriLab/EIU_CHM3915_Lab_Notebooks/HEAD)
 
 ## Requirements
 
-- Python 3.x
-- matplotlib
-- pandas
-- numpy
-- scikit-learn
-- openpyxl
+  - python
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - pandas
+  - partd
+  - scikit-learn
+  - openpyxl
+  - psi4
+  - fortecubeview
+  - ase
+  - psi4-rt
 
-See `requirements.txt` for the complete list.
+See `environment.yml` for the complete list.
 
 ## Usage
 
