@@ -41,7 +41,7 @@ CHM 3915 is a laboratory course in physical chemistry that introduces students t
 
 2. Install required packages:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
    ```
 
 3. Launch Jupyter:
