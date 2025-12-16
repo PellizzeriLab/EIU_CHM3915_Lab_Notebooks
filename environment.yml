@@ -1,9 +1,9 @@
 name: eiu-pchem-env
 channels:
   - conda-forge
-  - psi4
   - defaults
 dependencies:
+  - python>=3.11
   - python>=3.11
   - numpy
   - psutil
@@ -15,7 +15,7 @@ dependencies:
   - openpyxl
   - psi4
   - fortecubeview
-  - ase
+  
   - conda-forge/label/libint_dev::libint
   - dftd3-python
   - lammps
