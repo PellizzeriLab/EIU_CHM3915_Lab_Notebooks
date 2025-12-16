@@ -4,7 +4,7 @@ channels:
   - psi4
   - defaults
 dependencies:
-  - python
+  - python>=3.11
   - numpy
   - psutil
   - toolz
@@ -17,4 +17,5 @@ dependencies:
   - fortecubeview
   - ase
   - psi4-rt
-  
+  - conda-forge/label/libint_dev::libint
+  - dftd3-python
