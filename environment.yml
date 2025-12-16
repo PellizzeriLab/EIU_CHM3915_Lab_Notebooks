@@ -16,6 +16,6 @@ dependencies:
   - psi4
   - fortecubeview
   - ase
-  - psi4-rt
   - conda-forge/label/libint_dev::libint
   - dftd3-python
+  - lammps

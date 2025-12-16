@@ -1,84 +1,69 @@
 # CHM 3915 Physical Chemistry Lab Notebooks
 
-This repository contains Jupyter notebooks and materials for the Physical Chemistry Laboratory course (CHM 3915) at Eastern Illinois University.
+Jupyter notebooks and data for the Physical Chemistry Laboratory course (CHM 3915) at Eastern Illinois University.
 
 ## Course Description
 
-CHM 3915 is a laboratory course in physical chemistry that introduces students to computational methods, data analysis, and scientific programming using Python.
+CHM 3915 introduces computational methods, data analysis, and scientific programming applied to physical chemistry experiments.
 
-## Contents
+## Repository Structure
 
-### Notebooks
+- Intro_to_programming/ — Introductory Python and plotting notebooks (e.g., CHM 3915 Intro to Python.ipynb, CHM 3915 Plotting in Python - Final.ipynb)
+- Bomb_Calorimetry/
+- NO2_Dimerization/
+- Phase_Diagram/
+- Phenolphthalein_Kinetics/
+- Polymer_Viscosity/
+- Speed_of_Sound/
+- environment.yml — Conda environment specification
+- LICENSE
 
-- **CHM 3915 Intro to Python.ipynb** - Introduction to Python programming with chemistry-focused exercises including:
-  - Variables and mathematical operations
-  - Boolean logic
-  - Lists and comprehensions
-  - Control flow (if/else, for loops, while loops)
-  - File I/O operations
-  - Chemistry applications (ideal gas law, quadratic equations, radioactive decay, etc.)
+## Environment (conda)
 
-- **CHM 3915 Plotting in Python - Final.ipynb** - Data visualization and analysis including:
-  - Creating plots with matplotlib
-  - Linear and quadratic regression
-  - Error bars and confidence intervals
-  - R² calculations
-  - Professional figure formatting for lab reports
+1) Clone the repository
+```bash
+git clone https://github.com/PellizzeriLab/EIU_CHM3915_Lab_Notebooks.git
+cd EIU_CHM3915_Lab_Notebooks
+```
 
-### Data
+2) Create the course environment (name: eiu-pchem-env)
+```bash
+conda env create -f environment.yml
+conda activate eiu-pchem-env
+```
 
-- **Data/test.csv** - Sample data file for exercises
+3) Launch Jupyter
+```bash
+jupyter lab
+# or
+jupyter notebook
+```
 
-## Getting Started
+To update the environment after changes to environment.yml:
+```bash
+conda env update -f environment.yml --prune
+```
 
-### Option 1: Local Installation
+## Binder (no install)
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/PellizzeriLab/EIU_CHM3915_Lab_Notebooks.git
-   cd EIU_CHM3915_Lab_Notebooks
-   ```
-
-2. Install required packages:
-   ```bash
-   conda env create -f environment.yml
-   ```
-
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-### Option 2: Using Binder
-
-Click the badge below to launch the notebooks in an interactive environment without any installation:
+Launch an interactive session in the cloud (uses the repository environment):
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PellizzeriLab/EIU_CHM3915_Lab_Notebooks/HEAD)
 
-## Requirements
+## Key Packages
 
-  - python
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - pandas
-  - partd
-  - scikit-learn
-  - openpyxl
-  - psi4
-  - fortecubeview
-  - ase
-  - psi4-rt
+Core tools from environment.yml (see file for full list and versions):
 
-See `environment.yml` for the complete list.
+- python (>=3.11)
+- numpy, pandas, matplotlib, scikit-learn, openpyxl
+- psutil, toolz, partd
+- quantum/chemistry: psi4, psi4-rt, fortecubeview, ase, libint, dftd3-python
 
 ## Usage
 
-1. Navigate to the `Intro_to_programming` folder
-2. Open the desired notebook
-3. Complete the exercises in the provided code cells
-4. Execute cells to verify your solutions
+- Open the notebook for your experiment inside its folder (e.g., Intro_to_programming/ for the intro materials).
+- Run cells in order; fill in exercise cells where indicated.
+- Save your completed notebook before submission.
 
 ## License
 
