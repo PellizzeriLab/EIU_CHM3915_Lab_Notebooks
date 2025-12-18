@@ -15,7 +15,8 @@ dependencies:
   - openpyxl
   - psi4
   - fortecubeview
-  
   - conda-forge/label/libint_dev::libint
   - dftd3-python
   - lammps
+  - mpi4py
+  - rdkit
