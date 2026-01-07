@@ -12,15 +12,14 @@ dependencies:
   - partd
   - scikit-learn
   - openpyxl
-  - psi4
+  - psi4=1.10
   - fortecubeview
-  - conda-forge/label/libint_dev::libint
   - dftd3-python
   - lammps
   - mpi4py
   - rdkit
   - plotly
   - py3Dmol
+  - ase
   - pip:
-    - ase
     - AaronTools
