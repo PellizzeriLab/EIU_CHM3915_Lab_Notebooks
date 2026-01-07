@@ -4,7 +4,6 @@ channels:
   - defaults
 dependencies:
   - python>=3.11
-  - python>=3.11
   - numpy
   - psutil
   - toolz
@@ -20,3 +19,8 @@ dependencies:
   - lammps
   - mpi4py
   - rdkit
+  - plotly
+  - py3Dmol
+  - pip:
+    - ase
+    - AaronTools
