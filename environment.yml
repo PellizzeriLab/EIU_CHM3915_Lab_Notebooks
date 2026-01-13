@@ -1,7 +1,8 @@
 name: eiu-pchem-env
 channels:
   - conda-forge
-  - defaults
+  - veloxchem
+  - tbmasood
 dependencies:
   - python>=3.11
   - numpy
@@ -12,15 +13,33 @@ dependencies:
   - partd
   - scikit-learn
   - openpyxl
-  - psi4
+  - scipy
+  - seaborn
   - fortecubeview
-  - conda-forge/label/libint_dev::libint
   - dftd3-python
   - lammps
+  - openkim-models
   - mpi4py
   - rdkit
   - plotly
   - py3Dmol
+  - webcolors
+  - jsonschema-with-format-nongpl
+  - black
+  - isort
+  - ghp-import
+  - k3d
+  - ipympl
+  - ipywidgets
+  - openmm
+  - veloxchem
+  - multipsi
+  - dftd4-python
+  - xtb-python
+  - valet
+  - adcc
+  - pip
   - pip:
     - ase
-    - AaronTools
+    - git+https://github.com/gator-program/respondo.git@v0.0.5
+    - git+https://github.com/gator-program/gator.git@vlx-newints
