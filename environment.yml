@@ -18,6 +18,8 @@ dependencies:
   - seaborn
   - fortecubeview
   - dftd3-python
+  - dftd4-python
+  - veloxchem
   - lammps
   - openkim-models
   - mpi4py
@@ -25,5 +27,3 @@ dependencies:
   - plotly
   - py3Dmol
   - ase
-  - pip:
-    - AaronTools
