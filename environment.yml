@@ -13,6 +13,7 @@ dependencies:
   - partd
   - scikit-learn
   - openpyxl
+  - psi4=1.10
   - scipy
   - seaborn
   - fortecubeview
@@ -23,23 +24,6 @@ dependencies:
   - rdkit
   - plotly
   - py3Dmol
-  - webcolors
-  - jsonschema-with-format-nongpl
-  - black
-  - isort
-  - ghp-import
-  - k3d
-  - ipympl
-  - ipywidgets
-  - openmm
-  - veloxchem
-  - multipsi
-  - dftd4-python
-  - xtb-python
-  - valet
-  - adcc
-  - pip
+  - ase
   - pip:
-    - ase
-    - git+https://github.com/gator-program/respondo.git@v0.0.5
-    - git+https://github.com/gator-program/gator.git@vlx-newints
+    - AaronTools
