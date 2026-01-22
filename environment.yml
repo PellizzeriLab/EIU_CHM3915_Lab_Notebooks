@@ -1,7 +1,6 @@
 name: eiu-pchem-env
 channels:
   - conda-forge
-  - veloxchem
   - defaults
 dependencies:
   - python>=3.11
@@ -14,17 +13,13 @@ dependencies:
   - scikit-learn
   - openpyxl
   - scipy
-  - seaborn
   - fortecubeview
   - dftd4-python
-  - lammps
-  - openkim-models
   - mpi4py
   - rdkit
   - plotly
   - py3Dmol
   - ase
   - ipympl
-  - veloxchem
   - pip:
     - uncertainties
