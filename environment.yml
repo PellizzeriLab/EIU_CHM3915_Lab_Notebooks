@@ -21,5 +21,6 @@ dependencies:
   - py3Dmol
   - ase
   - ipympl
+  - pint
   - pip:
     - uncertainties
